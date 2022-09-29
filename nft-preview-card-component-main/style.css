@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&family=Luxurious+Roman&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300&family=Outfit:wght@100;200;300;400;600;700&family=Poppins:wght@300&family=Righteous&family=Roboto+Condensed:wght@300&family=Sarala&display=swap');
+
+@media screen and (max-width: 600px) {
+    /** Main Container **/
+    .main-container {
+      margin-top: 3.75rem;
+    }
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+.card-container{
+    max-width: 375px;
+    max-height: 732;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+   
+}
+.card-image{
+    width: 331.64px;
+    border-radius: 10px;
+   
+    
+}
+
+h1{
+    color: white;
+    margin-bottom: 12px;
+    margin-top: 17px;
+    font-size: 21px;
+}
+
+p{
+    font-size: 17px;
+}
+
+.card-content{
+    color:hsl(215, 51%, 70%);
+}
+
+.etherium{
+    color: hsl(178, 100%, 50%);
+    
+}
+
+.days{
+    color: hsl(215, 51%, 70%);
+}
+
+.content-text{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+hr{
+    border-color: hsl(215, 32%, 27%);
+}
+
+.image-avatar{
+    width: 32px;
+    margin-top: 14px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    
+    
+}
+
+.footer-content{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.name{
+    color: #fff;
+    font-weight: 400;
+}
+
+.p-author{
+    margin-top: 10px;
+}
